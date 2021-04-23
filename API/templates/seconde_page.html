@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="en">
+    <head>
+		<link rel ="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}"
+    </head>
+    <body>
+	    <h1> Les tags asociés à votre question sont : </h1>
+        <h1> {{ message }} </h1>
+    </body>
+    <a href="{{ url_for('home') }}"> Retourner à la page d'accueil </a>
+</html>
